@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact &amp; Quote | Tour Coach Lease</title>
+<meta name="description" content="Request an all-in tour coach quote. Reply within one business day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-contact">
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <span class="topbar__status"><i class="dot"></i>Dispatch answers 24/7 · Coaches across the lower 48</span>
+    <span class="topbar__contact"><a href="tel:+18885550148">(888) 555-0148</a> · <a href="mailto:info@tourcoachlease.com">info@tourcoachlease.com</a></span>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="index.html" class="logo" aria-label="Tour Coach Lease home">
+      <span class="logo__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="12" rx="2.5"/><path d="M4 11h16M8 16v3M16 16v3"/></svg></span>
+      <span class="logo__text">TOUR COACH <b>LEASE</b></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+              <a href="index.html" class="nav__link">Home</a>
+              <a href="coaches.html" class="nav__link">Coaches</a>
+              <a href="services.html" class="nav__link">Services</a>
+              <a href="contact.html" class="nav__link is-active">Contact</a>
+            <a href="contact.html#quote" class="btn btn--accent btn--sm nav__cta">Get a Quote</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<main>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="crumbs anim-in"><a href="index.html">Home</a> / Contact</div>
+    <span class="eyebrow anim-in d1">Contact &amp; quote</span>
+    <h1 class="h1 anim-in d2">Let's get your tour priced.</h1>
+    <p class="anim-in d3">Send what you have, even if the routing isn't final. You'll hear back with coach options and an all-in quote within one business day.</p>
+  </div>
+</section>
+
+<section class="section" id="quote">
+  <div class="container contact-grid">
+    <div class="form-card reveal reveal--left">
+      <h2 class="h2">Request a quote</h2>
+      <div id="formMsg">
+              </div>
+      <form id="quoteForm" action="https://formsubmit.co/ajax/info@tourcoachlease.com" method="post" novalidate>
+        <input type="hidden" name="_subject" value="New quote request - Tour Coach Lease">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form-grid">
+          <div class="field">
+            <label for="f-name">Name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" value="" required>
+            <span class="field__err"></span>
+          </div>
+          <div class="field">
+            <label for="f-company">Artist / company <small>(optional)</small></label>
+            <input id="f-company" name="company" type="text" autocomplete="organization" value="">
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" value="" required>
+            <span class="field__err"></span>
+          </div>
+          <div class="field">
+            <label for="f-phone">Phone <small>(optional)</small></label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" value="">
+          </div>
+          <div class="field">
+            <label for="f-service">What do you need?</label>
+            <select id="f-service" name="service" required>
+              <option value="">Choose one</option>
+              <option value="leasing">Coach leasing (full tour)</option><option value="rental">Tour bus rental (short run)</option><option value="trucking">Tour trucking / trailer</option><option value="combo">Coach + trucking package</option><option value="other">Not sure yet</option>            </select>
+            <span class="field__err"></span>
+          </div>
+          <div class="field">
+            <label for="f-party">Travelling party</label>
+            <select id="f-party" name="party">
+              <option>1-4 people</option><option>5-8 people</option><option selected>9-12 people</option><option>13+ people (multiple coaches)</option>            </select>
+          </div>
+          <div class="field">
+            <label for="f-start">Start date</label>
+            <input id="f-start" name="start_date" type="date" value="" required>
+            <span class="field__err"></span>
+          </div>
+          <div class="field">
+            <label for="f-end">End date <small>(optional)</small></label>
+            <input id="f-end" name="end_date" type="date" value="">
+          </div>
+          <div class="field field--full">
+            <label for="f-details">Routing &amp; details <small>(optional)</small></label>
+            <textarea id="f-details" name="details" placeholder="Pickup city, show cities, special requests..."></textarea>
+          </div>
+        </div>
+        <div class="form-foot">
+          <button type="submit" class="btn btn--accent">Send Request</button>
+          <p>We reply within one business day. No obligation.</p>
+        </div>
+      </form>
+    </div>
+
+    <aside class="info-stack stagger">
+      <div class="info">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h3.5l1.7 4.3-2.2 1.4a11 11 0 005.3 5.3l1.4-2.2L19 14.5V18a2 2 0 01-2 2A14 14 0 013 6a2 2 0 012-2z"/></svg></div>
+        <div><h3 class="h4">Call us</h3><a href="tel:+18885550148">(888) 555-0148</a><p>Dispatch answers 24/7</p></div>
+      </div>
+      <div class="info">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="M4 7l8 6 8-6"/></svg></div>
+        <div><h3 class="h4">Email</h3><a href="mailto:info@tourcoachlease.com">info@tourcoachlease.com</a><p>Routing sheets welcome</p></div>
+      </div>
+      <div class="info">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0113 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg></div>
+        <div><h3 class="h4">Coverage</h3><p>Pickups and routing anywhere in the lower 48 states</p></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section section--sand">
+  <div class="container">
+    <div class="section__head section__head--center reveal">
+      <span class="eyebrow">FAQ</span>
+      <h2 class="h2">Straight answers.</h2>
+    </div>
+    <div class="faq stagger">
+              <div class="faq__item">
+          <button class="faq__q" aria-expanded="false" aria-controls="faq-0">How far ahead should we book?<span class="faq__icon"></span></button>
+          <div class="faq__a" id="faq-0"><div><p>As early as your routing allows. Four to eight weeks out gives you the widest choice of coaches, especially in festival and holiday season, but we can often turn around last-minute dates too — call dispatch and we will check what is available.</p></div></div>
+        </div>
+              <div class="faq__item">
+          <button class="faq__q" aria-expanded="false" aria-controls="faq-1">Is the driver included in the price?<span class="faq__icon"></span></button>
+          <div class="faq__a" id="faq-1"><div><p>Yes. Every quote includes a professional CDL driver. Driver per diem, hotel rooms on driver rest days and any relief driver for long legs are itemized on the quote so you can see the full cost upfront.</p></div></div>
+        </div>
+              <div class="faq__item">
+          <button class="faq__q" aria-expanded="false" aria-controls="faq-2">How many people can one coach sleep?<span class="faq__icon"></span></button>
+          <div class="faq__a" id="faq-2"><div><p>Our 12-bunk entertainer sleeps up to 12. Star room layouts sleep eight in bunks plus a private suite, and star coaches are set up for two to four plus a master suite. Larger parties can run two coaches in convoy.</p></div></div>
+        </div>
+              <div class="faq__item">
+          <button class="faq__q" aria-expanded="false" aria-controls="faq-3">Can we bring a trailer for gear?<span class="faq__icon"></span></button>
+          <div class="faq__a" id="faq-3"><div><p>Absolutely. Enclosed coach trailers tow behind the bus for backline, merch and wardrobe. For full production we can add a 53-foot truck with its own driver on the same routing.</p></div></div>
+        </div>
+              <div class="faq__item">
+          <button class="faq__q" aria-expanded="false" aria-controls="faq-4">What happens if our routing changes mid-tour?<span class="faq__icon"></span></button>
+          <div class="faq__a" id="faq-4"><div><p>Call dispatch. We re-plan drives around hours-of-service rules, adjust driver schedules and update the quote. Added days or miles are priced at the rates already in your agreement.</p></div></div>
+        </div>
+              <div class="faq__item">
+          <button class="faq__q" aria-expanded="false" aria-controls="faq-5">Do you only work with musicians?<span class="faq__icon"></span></button>
+          <div class="faq__a" id="faq-5"><div><p>No. We move comedians, sports teams, film and TV crews, corporate roadshows, campaigns and faith tours — anyone who needs to sleep, work and travel on a schedule.</p></div></div>
+        </div>
+          </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="index.html" class="logo logo--light">
+        <span class="logo__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="12" rx="2.5"/><path d="M4 11h16M8 16v3M16 16v3"/></svg></span>
+        <span class="logo__text">TOUR COACH <b>LEASE</b></span>
+      </a>
+      <p>Entertainer coach leasing, tour bus rental and tour support across the lower 48.</p>
+    </div>
+    <div>
+      <h4>Pages</h4>
+      <ul><li><a href="index.html">Home</a></li><li><a href="coaches.html">Coaches</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="services.html#leasing">Coach Leasing</a></li>
+        <li><a href="services.html#rental">Tour Bus Rental</a></li>
+        <li><a href="services.html#trucking">Tour Trucking</a></li>
+        <li><a href="services.html#drivers">Drivers &amp; Dispatch</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+18885550148">(888) 555-0148</a></li>
+        <li><a href="mailto:info@tourcoachlease.com">info@tourcoachlease.com</a></li>
+        <li>Dispatch open 24/7</li>
+        <li><a href="contact.html#quote">Request a quote</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <span>© 2026 Tour Coach Lease. All rights reserved.</span>
+      <span>tourcoachlease.com</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg></button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
